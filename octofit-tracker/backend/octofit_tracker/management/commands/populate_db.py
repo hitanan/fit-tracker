@@ -25,7 +25,7 @@ class Command(BaseCommand):
         db.leaderboard.drop()
         db.workouts.drop()
 
-        # Insert test data directly using pymongo
+        # Insert test data directly using pymongo, test data for users...
         db.users.insert_many([
             {"email": "john.doe@example.com", "name": "John Doe", "age": 30, "created_at": "2025-04-10T00:00:00Z"},
             {"email": "jane.smith@example.com", "name": "Jane Smith", "age": 25, "created_at": "2025-04-10T00:00:00Z"}

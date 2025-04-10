@@ -86,7 +86,10 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# Configure MongoDB database connection
+# Configure MongoDB database connection using djongo
+# Ensure you have djongo installed: pip install djongo
+# Ensure you have pymongo installed: pip install pymongo
+# Ensure you have the MongoDB server running locally or adjust the connection settings accordingly
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
