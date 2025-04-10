@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-@vq1+9y(k^7)wu&3scx47n$09j+5r0*(+)x2m$xzntj3@*6lku
 DEBUG = True
 
 # Add allowed hosts
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'fictional-barnacle-jp7pp64v4wcjq5p-8000.app.github.dev']
 
 
 # Application definition
